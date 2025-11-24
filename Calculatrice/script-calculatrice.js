@@ -3,7 +3,7 @@
 // FONCTION RETOUR
 // const retour = document.getElementById('boutonRetour');
 // retour.addEventListener('click', () => {
-//     location.replace('http://localhost/testfolio/Menu-JavaScript/index.html')
+//     location.replace('/Users/lucas/Documents/Projets/App-Front/Menu/index.html')
 // });
 
 // CLASS CALCULATRICE

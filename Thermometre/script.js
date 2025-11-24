@@ -1,7 +1,7 @@
 // IMPORT DE L'INSTANCE DE LA CLASS OPEN WEATHER DU FICHIER CLASS_API
-import { API } from "./class_api.js";
+import { API } from "./class_api.mjs";
 // IMPORT DE L'INSTANCE DE LA CLASS DECORATEUR DU FICHIER CLASS_DECORATEUR
-import { classDecorateur } from "./class_decorateur.js";
+import { classDecorateur } from "./class_decorateur.mjs";
 
 // BOUTON RETOUR AU MENU
 const retour_menu = document.getElementById('boutonMenu');
@@ -11,7 +11,6 @@ retour_menu.addEventListener('click', () => {
 
 // APPEL DE LA METHODE PRINCIPALE DE LA CLASS OPEN WEATHER
 const boutonRecherche = document.getElementById('boutonRecherche');
-
 boutonRecherche.addEventListener('click', () => {
     API.afficheTemperature();
 });
@@ -27,11 +26,13 @@ const choixA = document.getElementById('darkMode');
 choixA.addEventListener('change', () => {
     classDecorateur.darkMode();
 });
+
 // APPEL DU MODE COULEUR
 const choixB = document.getElementById('colorMode');
 choixB.addEventListener('change', () => {
     classDecorateur.mode_couleur();
 });
+
 // APPEL DE LA FONCTION CHOIX DE COULEURS AVEC CONDITIONS
 const boutonCouleur = document.getElementById('choixCouleurs')
 boutonCouleur.addEventListener('input', () => {
