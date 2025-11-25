@@ -1,5 +1,16 @@
 {
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "TEST DB SQLITE",
+  "main": "sqlite.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "LC",
+  "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "better-sqlite3": "^12.4.1"
+    "better-sqlite3": "^12.4.6"
   }
 }
